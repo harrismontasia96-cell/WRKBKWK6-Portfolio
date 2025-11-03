@@ -12,7 +12,7 @@ public class BankAccount implements Valuable {
     }
 
 
-    private double deposit(double amount) {
+    public double deposit(double amount) {
         return amount + 0.5;
     }
 
